@@ -7,3 +7,5 @@ var projects = require('../projects.json');
 exports.view = function(request, response){
   	response.render('index', projects);
 };
+
+
